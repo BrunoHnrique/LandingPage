@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(103, 75, 176);
+}
+section.alinhar{
+    display: flex;
+    background-image: url('images/bg-desktop.svg');
+}
+img#logo{
+    margin: 3%;
+    position: absolute;
+}
+img#illustration{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+img#bg-desktop{
+    position: absolute;
+    top: 0px;
+}
+div#direita{
+    color: #fff;
+    width: 38%;
+    position: relative;
+    left: 87px;
+    top: 180px;
+    height: 12cm;
+}
+div#direita h1{
+    font-size: 38px;
+}
+div#direita p{
+    width: 100%;
+    font-size: 21px;
+}
+input#btn{
+    width: 132px;
+    height: 33px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(103, 75, 176);;
+}
+div.redes-sociais img {
+    width: 7%;
+    border-radius: 30%;
+}
+div.redes-sociais{
+    display: flex;
+}
+div.redes-sociais img {
+    margin-left: 20px;
+    position: relative;
+    top: 39px;
+}
